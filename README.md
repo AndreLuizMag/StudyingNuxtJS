@@ -1,4 +1,4 @@
-# studying-nuxtjs
+# studyng-nuxtjs
 
 ## Build Setup
 

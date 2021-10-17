@@ -1,0 +1,73 @@
+:root {
+  // ---- Colors ---- //
+
+  --w: hsla(0, 0%, 100%, 1);
+  --b: hsla(0, 0%, 0%, 1);
+
+  // Background light-theme
+  --bgc-light-d: hsla(0, 0%, 95%, 1);
+  --bgc-light-l: hsla(0, 0%, 100%, 1);
+
+  // Background dark-theme
+  --bgc-dark-d: hsla(0, 0%, 15%, 1);
+  --bgc-dark-l: hsla(0, 0%, 20%, 1);
+
+  // Font light-theme
+  --font-light-d: hsla(0, 0%, 5%, 1);
+  --font-light-n: hsla(0, 0%, 20%, 1);
+  --font-light-l: hsla(0, 0%, 40%, 1);
+
+  // Font dark-theme
+  --font-dark-d: hsla(0, 0%, 90%, 1);
+  --font-dark-n: hsla(0, 0%, 95%, 1);
+  --font-dark-l: hsla(0, 0%, 100%, 1);
+
+  // Red
+  --red-dark: hsla(5, 80%, 40%, 1);
+  --red-darken: hsla(5, 80%, 60%, 1);
+  --red-normal: hsla(5, 80%, 75%, 1);
+  --red-lighten: hsla(5, 79%, 85%, 1);
+  --red-light: hsla(6, 77%, 95%, 1);
+
+  // Blue
+  --blue-dark: hsla(220, 90%, 40%, 1);
+  --blue-darken: hsla(220, 90%, 60%, 1);
+  --blue-normal: hsla(220, 91%, 75%, 1);
+  --blue-lighten: hsla(220, 90%, 85%, 1);
+  --blue-light: hsla(222, 92%, 95%, 1);
+
+  // Yellow
+  --yellow-dark: hsla(45, 100%, 40%, 1);
+  --yellow-darken: hsla(45, 100%, 60%, 1);
+  --yellow-normal: hsla(45, 100%, 75%, 1);
+  --yellow-lighten: hsla(45, 100%, 85%, 1);
+  --yellow-light: hsla(46, 100%, 95%, 1);
+
+  // Green
+  --green-dark: hsla(135, 60%, 40%, 1);
+  --green-darken: hsla(135, 60%, 60%, 1);
+  --green-normal: hsla(135, 61%, 75%, 1);
+  --green-lighten: hsla(134, 61%, 85%, 1);
+  --green-light: hsla(132, 60%, 95%, 1);
+}
+
+// ---- Colors ---- //
+
+$w: var(--w);
+$b: var(--b);
+
+// background
+$bgc-d: var(--bgc-light-d);
+$bgc-l: var(--bgc-light-l);
+
+//font
+$font-d: var(--font-light-d);
+$font-n: var(--font-light-n);
+$font-l: var(--font-light-l);
+
+// palette
+$primary-dark: var(--blue-dark);
+$primary-darken: var(--blue-darken);
+$primary-normal: var(--blue-normal);
+$primary-lighten: var(--blue-lighten);
+$primary-light: var(--blue-light);

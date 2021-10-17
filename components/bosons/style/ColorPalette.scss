@@ -1,0 +1,35 @@
+// $colors: (
+//   bgc: (
+//     base: var(--bgc-light-l),
+//     dark: var(--bgc-light-d),
+//   ),
+//   font: (
+//     base: var(--font-light-n),
+//     dark: var(--font-light-d),
+//     light: var(--font-light-l),
+//   ),
+//   primary: (
+//     base: var(--blue-normal),
+//     dark: var(--blue-dark),
+//     darken: var(--blue-darken),
+//     light: var(--blue-light),
+//     lighten: var(--blue-lighten),
+//   ),
+// ) !default;
+
+// $test-color: red;
+
+// @function color($color, $complementary: null) {
+//   @if map-has-key($colors, $color) {
+//     $type: map-get($colors, $color);
+//     @if $complementary == null {
+//       @if type-of($type) == map {
+//         @return map-get(map-get($colors, $color), 'base');
+//       } @else {
+//         @return map-get($colors, $color);
+//       }
+//     } @else {
+//       @return map-get(map-get($colors, $color), $complementary);
+//     }
+//   }
+// }

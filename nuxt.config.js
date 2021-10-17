@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'studying-nuxtjs',
+    title: 'studyng-nuxtjs',
     htmlAttrs: {
       lang: 'en'
     },
@@ -18,6 +18,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -30,8 +31,12 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+    '@nuxtjs/eslint-module', '@nuxtjs/style-resources',
   ],
+
+  styleResources: {
+    scss: ['@/components/bosons/style/*.scss', '@/components/bosons/style/**/*.scss']  // Hoists the "@use" imports. Applies only to "sass", "scss" and "less". Default: false.
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
